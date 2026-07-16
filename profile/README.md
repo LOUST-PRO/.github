@@ -3,6 +3,7 @@
   <br/>
   <br/>
   <p>
+    <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Schedule_a_Meeting-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Schedule a Meeting (Google Calendar)"/></a>
     <a href="https://github.com/louzt"><img src="https://img.shields.io/badge/Founder_&_CTO-louzt-181717?style=flat-square&logo=github" alt="Founder"></a>
     <a href="https://www.linkedin.com/company/loust/"><img src="https://img.shields.io/badge/LOUST_PRO-0A66C2?style=flat-square&logo=linkedin" alt="LOUST LinkedIn"></a>
     <a href="https://www.linkedin.com/in/davidmirelesll/"><img src="https://img.shields.io/badge/David_Mireles-0A66C2?style=flat-square&logo=linkedin" alt="David Mireles"></a>
@@ -17,14 +18,29 @@
     <code>OPEN SOURCE INFRASTRUCTURE</code> • <code>B2B ENTERPRISE PLATFORMS</code> • <code>MULTI-TENANT SAAS</code> • <code>SOVEREIGN RAG</code> • <code>NETWORK DAEMONS</code>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+    <img src="https://img.shields.io/badge/go-00add8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+    <img src="https://img.shields.io/badge/typescript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/python-3776ab?style=flat-square&logo=python&logoColor=ffd43b" alt="Python"/>
+    <img src="https://img.shields.io/badge/perl-0298c3?style=flat-square&logo=perl&logoColor=white" alt="Perl"/>
+    <img src="https://img.shields.io/badge/zig-F7A41D?style=flat-square&logo=zig&logoColor=white" alt="Zig"/>
+    <img src="https://img.shields.io/badge/c-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"/>
+    <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
+    <br/>
+    <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
+    <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
     <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-    <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-    <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+    <img src="https://img.shields.io/badge/graphql-e10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+    <img src="https://img.shields.io/badge/postgresql-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+    <img src="https://img.shields.io/badge/redis-dc382d?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+    <br/>
+    <img src="https://img.shields.io/badge/google-4285f4?style=flat-square&logo=google&logoColor=white" alt="Google Ads"/>
+    <img src="https://img.shields.io/badge/meta-1877f2?style=flat-square&logo=meta&logoColor=white" alt="Meta Ads"/>
+    <img src="https://img.shields.io/badge/blockchain-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain"/>
+    <img src="https://img.shields.io/badge/CRM-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="CRM"/>
+    <img src="https://img.shields.io/badge/ERP-714B67?style=flat-square" alt="ERP"/>
+    <img src="https://img.shields.io/badge/SaaS--to--SaaS-2C3E50?style=flat-square" alt="SaaS-to-SaaS"/>
+    <img src="https://img.shields.io/badge/IA--Research-7c3aed?style=flat-square" alt="IA Research"/>
   </p>
 </div>
 
@@ -54,19 +70,23 @@ Just click the button below to automatically open a Pull Request with your YAML 
       <sub>Systems programming and daemon tooling that solves deep kernel, network, and hardware edge cases.</sub><br/><br/>
       <ul>
         <li><a href="https://github.com/LOUST-PRO/storage-mountguardian"><b>storage-mountguardian</b></a><br/>
-          <sub>Rust daemon for proactive SCSI/USB failure amputation.</sub>
+          <sub>Rust daemon for proactive SCSI/USB failure amputation. Protects I/O bounds against D-state locks.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/> <img src="https://img.shields.io/badge/Udev-2C3E50?style=flat-square" alt="Udev"/></sub>
         </li>
         <br/>
         <li><a href="https://github.com/LOUST-PRO/SnapPipe"><b>SnapPipe</b></a><br/>
-          <sub>Identity-based QUIC transport toolkit.</sub>
+          <sub>Identity-anchored transport toolkit that solves the SSH/QUIC head-of-line blocking problem. Binds sessions to Ed25519 public keys.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/QUIC-0093D0?style=flat-square" alt="QUIC"/> <img src="https://img.shields.io/badge/Ed25519-2C3E50?style=flat-square" alt="Ed25519"/></sub>
         </li>
         <br/>
         <li><a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><b>NetBoozt</b></a><br/>
-          <sub>BBR-like TCP optimization and intelligent DNS failover.</sub>
+          <sub>Cross-platform TCP optimization and intelligent DNS failover. Delivers Linux BBR-equivalent gains.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"/> <img src="https://img.shields.io/badge/BBR-4285F4?style=flat-square" alt="BBR"/></sub>
         </li>
         <br/>
         <li><a href="https://github.com/LOUST-PRO/ical-to-caldav"><b>ical-to-caldav</b></a><br/>
-          <sub>ICS subscription bridge to CalDAV native streams.</sub>
+          <sub>ICS subscription bridge daemon translating public endpoints into localized CalDAV streams.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/CalDAV-4285F4?style=flat-square" alt="CalDAV"/></sub>
         </li>
       </ul>
     </td>
@@ -75,19 +95,23 @@ Just click the button below to automatically open a Pull Request with your YAML 
       <sub>Advanced tooling for autonomous agents, LLM pipelines, and verifiable retrieval-augmented generation.</sub><br/><br/>
       <ul>
         <li><a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><b>deterministic-sovereign-rag</b></a><br/>
-          <sub>ArXiv preprint and reproducible pipeline for Sovereign AI.</sub>
+          <sub>ArXiv preprint and reproducible pipeline for Sovereign AI. Implements signed-hash projection.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"/> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/FNV--1a_64bit-2C3E50?style=flat-square" alt="FNV-1a 64-bit"/></sub>
         </li>
         <br/>
         <li><a href="https://github.com/LOUST-PRO/dsvh-verification-suite"><b>dsvh-verification-suite</b></a><br/>
-          <sub>Empirical validation for FNV-1a + L2 pipelines.</sub>
+          <sub>Empirical validation testbed for FNV-1a + L2 pipelines, designed for concurrency stress testing.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Virtuoso-2C3E50?style=flat-square" alt="Virtuoso"/></sub>
         </li>
         <br/>
         <li><a href="https://github.com/LOUST-PRO/LLMmempipe"><b>LLMmempipe</b></a><br/>
-          <sub>Token-efficient compiler for noisy LLM exports.</sub>
+          <sub>Compiler translating noisy LLM export payloads (ChatGPT, Claude, Gemini) into canonical JSONL records to eliminate token bloat.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/> <img src="https://img.shields.io/badge/JSONL-1F2937?style=flat-square" alt="JSONL"/></sub>
         </li>
         <br/>
         <li><a href="https://github.com/LOUST-PRO/TaxonRouter"><b>TaxonRouter</b></a><br/>
-          <sub>Intelligent AI-Native GitHub App webhook router.</sub>
+          <sub>Dual-binary GitHub automation: MCP server + webhook auto-tagger for metadata orchestration.</sub><br/>
+          <sub><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/MCP-7C3AED?style=flat-square" alt="MCP"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></sub>
         </li>
       </ul>
     </td>
@@ -131,8 +155,9 @@ Beyond open source, LOUST PRO architectures power large-scale private ecosystems
 
 <img src="title-agentic.svg" alt="Development Pipeline & Agentic Workflow" width="100%">
 
-LOUST PRO operates heavily on an **AI-Native Engineering Pipeline**, utilizing autonomous agents (Antigravity IDE, Claude, Gemini) embedded deeply into the development lifecycle via the **Model Context Protocol (MCP)**.
-All data pipelines align with the *Deterministic Sovereign RAG* spec. All modifications must run locally in a sandboxed stage before proposing upstream PRs.
+To understand how we operate at LOUST PRO, including our **AI-Native Engineering Pipeline**, **Model Context Protocol (MCP)** interactions, and our strict **Deterministic Sovereign RAG** specifications, please read our central collaboration handbook.
+
+👉 **[Read the LOUST-PRO / Start-Here Guidelines](https://github.com/LOUST-PRO/start-here)**
 
 ---
 <p align="center">
