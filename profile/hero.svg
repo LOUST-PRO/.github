@@ -7,24 +7,42 @@
       <stop offset="100%" stop-color="#020617" />
     </linearGradient>
     
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.4" />
+    <!-- Grid Pattern with animation -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <path d="M40 0 L0 0 0 40" stroke="#ffffff" stroke-opacity="0.05" fill="none"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="40,40" dur="30s" repeatCount="indefinite"/>
     </pattern>
 
-    <!-- Glow Filter for Main Text -->
+    <linearGradient id="sweep-tech" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0e7490" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="50%"  stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="80%"  stop-color="#67e8f9" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0e7490" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow Filter for Main Text and Sweeps -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
   
-  <!-- Outer Background -->
   <rect width="100%" height="100%" fill="url(#bg)" rx="12" />
   <rect width="100%" height="100%" fill="url(#grid)" rx="12" />
+
+  <!-- Animated sweep -->
+  <g filter="url(#glow)">
+    <rect x="-300" y="0" width="300" height="180" fill="url(#sweep-tech)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;900;-300" keyTimes="0;0.5;1" dur="15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
   
   <!-- MacOS Window Box -->
-  <rect x="40" y="30" width="720" height="120" rx="10" fill="#020617" stroke="#1e293b" stroke-width="2" opacity="0.85" />
+  <rect x="40" y="30" width="720" height="120" rx="10" fill="#020617" stroke="#1e293b" stroke-width="2" opacity="0.95" />
   
   <!-- Window Header Bar -->
   <path d="M 40 40 Q 40 30 50 30 L 750 30 Q 760 30 760 40 L 760 55 L 40 55 Z" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
@@ -33,9 +51,13 @@
   <circle cx="60" cy="42.5" r="5" fill="#ef4444" />
   <circle cx="78" cy="42.5" r="5" fill="#eab308" />
   <circle cx="96" cy="42.5" r="5" fill="#22c55e" />
+  <circle cx="96" cy="42.5" r="5" fill="#22c55e" opacity="0.45">
+    <animate attributeName="r" values="5;10;5" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0;0.45" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
   
   <!-- Main Content -->
-  <g transform="translate(400, 95)" text-anchor="middle">
+  <g transform="translate(400, 105)" text-anchor="middle">
     <!-- Main Title -->
     <text y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="900" fill="#ffffff" filter="url(#glow)">LOUST PRO</text>
     

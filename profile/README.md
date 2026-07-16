@@ -149,7 +149,31 @@ Beyond open source, LOUST PRO architectures power large-scale private ecosystems
       <sub><img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/> <img src="https://img.shields.io/badge/esbuild-FFCF00?style=flat-square&logo=esbuild&logoColor=black" alt="esbuild"/></sub>
     </td>
   </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Brand Portfolio & Identity</strong><br/>
+      <sub>Multi-brand SSO profiles, CIP (Corporate Identity Program), and highly cohesive brand token integration.</sub><br/>
+      <sub><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/> <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/> <img src="https://img.shields.io/badge/SAML-CC292B?style=flat-square" alt="SAML"/></sub>
+    </td>
+    <td valign="top" width="50%">
+      <strong>Data Analytics Dashboards</strong><br/>
+      <sub>Real-time OLAP dashboards parsing millions of rows for BI, KPI tracking, and interactive exploration.</sub><br/>
+      <sub><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"/> <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlecloud&logoColor=white" alt="BigQuery"/> <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" alt="ClickHouse"/></sub>
+    </td>
+  </tr>
 </table>
+
+<br/>
+
+<img src="title-work.svg" alt="Work With Us" width="100%">
+
+We partner with companies looking for high-end engineering, robust architecture, and predictable SLAs. 
+
+- **Custom Infrastructure:** We build tailored solutions utilizing our core stack (Rust, Go, Kubernetes).
+- **Scale-Up Consulting:** We analyze, break, and rebuild systems to withstand 100x traffic loads.
+- **AI Integration:** Seamless embedding of autonomous agents and RAG into your legacy enterprise stack.
+
+To request a proposal, [Schedule a Meeting](https://calendar.app.google/XR7FkZXWVwfmZ57x6) or reach out directly to **partnership@loust.pro**.
 
 <br/>
 
