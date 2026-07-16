@@ -1,31 +1,51 @@
 <div align="center">
   <img src="hero.svg" alt="LOUST PRO Engineering" width="100%">
   <br/>
+  <br/>
   <p>
     <a href="https://github.com/louzt"><img src="https://img.shields.io/badge/Founder_&_CTO-louzt-181717?style=flat-square&logo=github" alt="Founder"></a>
-    <a href="https://www.linkedin.com/in/davidmirelesll/"><img src="https://img.shields.io/badge/David_Mireles-0A66C2?style=flat-square&logo=linkedin" alt="David Mireles"></a>
     <a href="https://www.linkedin.com/company/loust/"><img src="https://img.shields.io/badge/LOUST_PRO-0A66C2?style=flat-square&logo=linkedin" alt="LOUST LinkedIn"></a>
+    <a href="https://www.linkedin.com/in/davidmirelesll/"><img src="https://img.shields.io/badge/David_Mireles-0A66C2?style=flat-square&logo=linkedin" alt="David Mireles"></a>
+  </p>
+  <p>
+    <a href="https://loust.pro/careers"><img src="https://img.shields.io/badge/Careers-Join_Our_Team-059669?style=flat-square" alt="Careers"></a>
+    <a href="https://github.com/LOUST-PRO/.github/blob/main/CLA.md"><img src="https://img.shields.io/badge/CLA_Agreement-Required-DC2626?style=flat-square" alt="CLA"></a>
     <a href="https://crates.io/users/LOUST-PRO"><img src="https://img.shields.io/badge/Crates.io-LOUST--PRO-E48E8C?style=flat-square&logo=rust&logoColor=white" alt="Crates.io"></a>
     <a href="https://opencollective.com/loust-pro"><img src="https://img.shields.io/badge/Open_Collective-Support_Us-7FADF2?style=flat-square&logo=opencollective" alt="Open Collective"></a>
+  </p>
+  <p>
+    <code>OPEN SOURCE INFRASTRUCTURE</code> • <code>B2B ENTERPRISE PLATFORMS</code> • <code>MULTI-TENANT SAAS</code> • <code>SOVEREIGN RAG</code> • <code>NETWORK DAEMONS</code>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+    <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+    <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
   </p>
 </div>
 
 Welcome to the **LOUST PRO** engineering organization. We are the technology provider behind a wide range of B2B platforms, enterprise systems, and high-performance open-source infrastructure. Our focus is on multi-protocol transport, hardened Linux substrates, and systems that survive multi-year horizons.
 
-## Join The LZT Developers Community
+<br/>
 
-We are building a powerful community of engineers, AI researchers, and sysadmins.
+<img src="title-join.svg" alt="Join The LZT Developers Community" width="100%">
 
-<div align="center">
-  <p><b>Do you want to feature your profile alongside other top engineers?</b></p>
-  <a href="https://github.com/LOUST-PRO/LZT-Developers/new/main/members?filename=tu-usuario.yml&value=username%3A%20tu-usuario%0Aname%3A%20Tu%20Nombre%0Arole%3A%20Software%20Engineer%0Askills%3A%20%0A%20%20-%20Next.js%0A%20%20-%20Rust%0Agithub%3A%20%22https%3A%2F%2Fgithub.com%2Ftu-usuario%22%0Awebsite%3A%20%22%22">
-    <img src="https://img.shields.io/badge/Join_LZT_Developers-Click_Here_to_Add_Your_Profile-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="Join LZT Developers">
-  </a>
-</div>
+We are building a powerful community of engineers, AI researchers, and sysadmins. The **LZT-Developers** repository is an AGPLv3-licensed Next.js web application built for the community. Rather than editing a massive monolithic file, joining is entirely declarative and programmatic.
 
-The [LZT-Developers](https://github.com/LOUST-PRO/LZT-Developers) repository is an AGPLv3-licensed Next.js web application built for the community. Rather than editing a massive monolithic file, joining is entirely declarative and programmatic. Just click the button above to automatically open a Pull Request with your YAML profile!
+**Do you want to feature your profile alongside other top engineers?**  
+Just click the button below to automatically open a Pull Request with your YAML profile.
 
-## Core Open-Source Lines
+<a href="https://github.com/LOUST-PRO/LZT-Developers/new/main/members?filename=tu-usuario.yml&value=username%3A%20tu-usuario%0Aname%3A%20Tu%20Nombre%0Arole%3A%20Software%20Engineer%0Askills%3A%20%0A%20%20-%20Next.js%0A%20%20-%20Rust%0Agithub%3A%20%22https%3A%2F%2Fgithub.com%2Ftu-usuario%22%0Awebsite%3A%20%22%22">
+  <img src="https://img.shields.io/badge/Join_LZT_Developers-Click_Here_to_Add_Your_Profile-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="Join LZT Developers">
+</a>
+
+<br/><br/>
+
+<img src="title-opensource.svg" alt="Core Open-Source Lines" width="100%">
 
 <table>
   <tr>
@@ -74,7 +94,9 @@ The [LZT-Developers](https://github.com/LOUST-PRO/LZT-Developers) repository is 
   </tr>
 </table>
 
-## Enterprise B2B & Closed Platforms
+<br/>
+
+<img src="title-enterprise.svg" alt="Enterprise B2B & Closed Platforms" width="100%">
 
 Beyond open source, LOUST PRO architectures power large-scale private ecosystems.
 
@@ -105,7 +127,9 @@ Beyond open source, LOUST PRO architectures power large-scale private ecosystems
   </tr>
 </table>
 
-## Agentic Workflow
+<br/>
+
+<img src="title-agentic.svg" alt="Development Pipeline & Agentic Workflow" width="100%">
 
 LOUST PRO operates heavily on an **AI-Native Engineering Pipeline**, utilizing autonomous agents (Antigravity IDE, Claude, Gemini) embedded deeply into the development lifecycle via the **Model Context Protocol (MCP)**.
 All data pipelines align with the *Deterministic Sovereign RAG* spec. All modifications must run locally in a sandboxed stage before proposing upstream PRs.
