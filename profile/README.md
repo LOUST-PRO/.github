@@ -55,7 +55,7 @@ We are building a powerful community of engineers, AI researchers, and sysadmins
 **Do you want to feature your profile alongside other top engineers?**  
 Just click the button below to automatically open a Pull Request with your YAML profile.
 
-<a href="https://github.com/LOUST-PRO/LZT-Developers/new/main/members?filename=tu-usuario.yml&value=username%3A%20tu-usuario%0Aname%3A%20Tu%20Nombre%0Arole%3A%20Software%20Engineer%0Askills%3A%20%0A%20%20-%20Next.js%0A%20%20-%20Rust%0Agithub%3A%20%22https%3A%2F%2Fgithub.com%2Ftu-usuario%22%0Awebsite%3A%20%22%22">
+<a href="https://github.com/LOUST-PRO/LZT-Developers/new/main/members?filename=your-username.yml&value=username%3A%20your-username%0Aname%3A%20Your%20Name%0Arole%3A%20Software%20Engineer%0Askills%3A%20%0A%20%20-%20Next.js%0A%20%20-%20Rust%0Agithub%3A%20%22https%3A%2F%2Fgithub.com%2Fyour-username%22%0Awebsite%3A%20%22%22">
   <img src="https://img.shields.io/badge/Join_LZT_Developers-Click_Here_to_Add_Your_Profile-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="Join LZT Developers">
 </a>
 
