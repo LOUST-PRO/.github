@@ -1,36 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#020617" />
     </linearGradient>
-    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#818CF8" />
-    </linearGradient>
+    
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.4" />
+    </pattern>
+
+    <!-- Glow Filter for Main Text -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
   
+  <!-- Outer Background -->
   <rect width="100%" height="100%" fill="url(#bg)" rx="12" />
+  <rect width="100%" height="100%" fill="url(#grid)" rx="12" />
   
-  <path d="M0,0 L800,0 L800,200 L0,200 Z" fill="url(#bg)" rx="12" />
+  <!-- MacOS Window Box -->
+  <rect x="40" y="30" width="720" height="160" rx="10" fill="#020617" stroke="#1e293b" stroke-width="2" opacity="0.85" />
   
-  <g opacity="0.1">
-    <path d="M-100,50 Q100,150 400,50 T900,100" fill="none" stroke="#38BDF8" stroke-width="4" />
-    <path d="M-100,150 Q200,50 500,150 T900,50" fill="none" stroke="#818CF8" stroke-width="2" />
-    <path d="M-100,100 Q300,200 600,0 T900,150" fill="none" stroke="#F472B6" stroke-width="1" />
-  </g>
+  <!-- Window Header Bar -->
+  <path d="M 40 40 Q 40 30 50 30 L 750 30 Q 760 30 760 40 L 760 55 L 40 55 Z" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Window Buttons -->
+  <circle cx="60" cy="42.5" r="5" fill="#ef4444" />
+  <circle cx="78" cy="42.5" r="5" fill="#eab308" />
+  <circle cx="96" cy="42.5" r="5" fill="#22c55e" />
+  
+  <!-- Window Title -->
+  <text x="400" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle">bash — loust-pro — 80x24</text>
 
-  <g transform="translate(400, 90)" text-anchor="middle">
-    <text y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="900" fill="url(#text-gradient)" filter="url(#glow)">LOUST-PRO</text>
-    <text y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94A3B8" letter-spacing="4">CODE THAT SURVIVES THE EDGE CASES</text>
+  <!-- Main Content -->
+  <g transform="translate(400, 110)" text-anchor="middle">
+    <!-- Main Title -->
+    <text y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="900" fill="#ffffff" filter="url(#glow)">LOUST PRO</text>
+    
+    <!-- Tagline -->
+    <text y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#94a3b8">Leveraging Opportunities Unleashing Success and Transformation</text>
   </g>
   
-  <g transform="translate(400, 165)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#475569" font-weight="600" letter-spacing="2">
-    <text>INFRASTRUCTURE | RAG SYSTEMS | AI AGENTS | MCP</text>
+  <!-- Categories -->
+  <g transform="translate(400, 175)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" fill="#38bdf8" font-weight="600" letter-spacing="1">
+    <text>OPEN SOURCE INFRASTRUCTURE • B2B ENTERPRISE PLATFORMS • MULTI-TENANT SAAS • SOVEREIGN RAG • NETWORK DAEMONS</text>
   </g>
 </svg>
